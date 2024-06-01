@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col items-center py-10 ">
+    <div className="w-full px-5 flex flex-col items-center py-10 ">
       <div className="max-w-3xl w-full">
         <header className="pb-4 flex gap-2 items-center flex-shrink-0">
           <img src={LOGO} alt="logo" className="w-16 h-16" />
