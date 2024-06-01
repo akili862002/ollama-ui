@@ -54,7 +54,7 @@ function App() {
             <SvgSpinners3DotsBounce className="h-6 w-6 mt-6 text-neutral-600" />
           )}
           {answer && (
-            <div className="mt-6">
+            <div className="mt-6 markdown">
               <Markdown>{answer}</Markdown>
             </div>
           )}
